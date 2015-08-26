@@ -1,0 +1,123 @@
+.appear {
+	display: none;
+}
+
+.button:hover {
+	background-color: red;
+}
+
+html, body, section, header, footer, h1, h2, h3, p, ul, li, img, .personalinfo, .codeweb {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	font-size: 100%;
+	font: inherit;
+}
+
+html {
+	font-family: verdana, sans-serif;
+	background-image: url(GincoTree.jpg);
+}
+
+body {
+	margin: 40px 200px 40px 200px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+.main section:first-of-type {
+	clear: both;
+	padding-top: 1px;
+}
+
+header {
+	padding-left: 10px;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+img {
+	float: left;
+}
+
+h1 {
+	background-color: #FF9933;
+	font-size: 50px;
+	margin-top: 20px;
+	padding: 0px 110px 0px 10px;
+	font-weight: bold;
+}
+
+h2 {
+	background-color: #D1B2D1;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	margin-top: 10px;
+	padding-left: 20px;
+	font-weight: bold;
+
+}
+
+p {
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+a {
+	color: #33CC33;
+}
+
+footer p {
+	text-align: center;
+}
+
+.personalinfo {
+	margin-left: 400px;
+}
+
+.personalinfo p {
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.codeweb {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.codeweb h3, .codeweb p {
+	padding-left: 220px;
+	padding-right: 10px;
+}
+
+.codeweb ul {
+	padding-left: 235px;
+	padding-right: 10px;
+}
+
+section .codeweb:last-of-type img{
+	padding-top: 20px;
+}
+
+section p {
+	font-style: italic;
+}
+
+.codeweb img {
+	width:200px;
+	height:150px;
+}
